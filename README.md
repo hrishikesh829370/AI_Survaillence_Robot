@@ -12,13 +12,12 @@ Key Features:
     Line Following: The robot can seamlessly detect and follow lines on a track, enabling autonomous navigation.
 
 Robot's Vision:
-
-ai_bot: ![ai_bot](https://github.com/hrishikesh829370/AI_Survaillence_Robot/assets/131910887/511fb011-dbbc-4049-9cb4-835c192d574c)
+ ![ai_bot](https://github.com/hrishikesh829370/AI_Survaillence_Robot/assets/131910887/511fb011-dbbc-4049-9cb4-835c192d574c)
 
 The robot successfully identifies an object in its field of view.
 
 Line Following:
 
-line_following: ![line_following](https://github.com/hrishikesh829370/AI_Survaillence_Robot/assets/131910887/c3fd8b5b-ee67-44dc-809e-372f31f99f2b)
+ ![line_following](https://github.com/hrishikesh829370/AI_Survaillence_Robot/assets/131910887/c3fd8b5b-ee67-44dc-809e-372f31f99f2b)
 
 The robot detects and follows a line on the track accurately.

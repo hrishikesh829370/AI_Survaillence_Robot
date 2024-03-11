@@ -21,3 +21,69 @@ Line Following:
  ![line_following](https://github.com/hrishikesh829370/AI_Survaillence_Robot/assets/131910887/c3fd8b5b-ee67-44dc-809e-372f31f99f2b)
 
 The robot detects and follows a line on the track accurately.
+
+## Project Structure:
+
+The project code is organized into the following directories and files:
+
+```
+├── launch
+│   ├── gazebo.launch.py
+│   ├── line_following.launch.py
+│   ├── qr_maze.launch.py
+│   ├── rviz.launch.py
+│   └── surveillance_bot.launch.py
+├── meshes
+│   ├── base.dae
+│   ├── caster_holder.dae
+│   ├── caster_wheel.dae
+│   ├── cover.dae
+│   ├── left.png
+│   ├── line_to_follow.dae
+│   ├── maze.dae
+│   ├── qr_codes.dae
+│   ├── right.png
+│   ├── robot.blend
+│   ├── robot.blend1
+│   ├── rpi_camera.dae
+│   ├── stop.png
+│   └── wheel.dae
+├── models
+│   ├── line_follow_model
+│   │   ├── model.config
+│   │   └── model.sdf
+│   └── maze_qr_codes
+│       ├── model.config
+│       └── model.sdf
+├── package.xml
+├── resource
+│   ├── aeroplane.jpg
+│   ├── bus.jpg
+│   ├── car.jpg
+│   ├── left.png
+│   ├── right.png
+│   ├── stop.png
+│   ├── vehicle.jpg
+│   └── vision_rpi_bot
+├── scripts
+│   ├── model_test.py
+│   └── qr_code.py
+├── setup.cfg
+├── setup.py
+├── urdf
+│   ├── vision_rpi_bot_lf.urdf
+│   └── vision_rpi_bot.urdf
+├── vision_rpi_bot
+│   ├── __init__.py
+│   ├── line_following_real.py
+│   ├── line_following_sim.py
+│   ├── publisher.py
+│   ├── qr_maze_drive.py
+│   ├── subscriber.py
+│   └── surveillance_bot.py
+└── worlds
+    ├── lineFollow.world
+    └── qr_maze.world
+
+```
+
